@@ -1,0 +1,1 @@
+{'first_name': 'kiara', 'last_name': 'campbell', 'username': 'kiaracampbell3o9kwpfabs', 'password': '4be76a2cc2bc0493ea327267ac5a2726', 'birth_year': '1983', 'birth_month': '3', 'birth_day': '26'}

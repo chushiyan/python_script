@@ -1,0 +1,68 @@
+[{
+  "error": 0,
+  "data": {
+    "roll_data": [
+      {
+        "is_top": 0,
+        "ad": {
+          "id": 0,
+          "title": "",
+          "img": "",
+          "url": "",
+          "video_url": "",
+          "adTag": "",
+          "fullScreen": 0
+        },
+        "modified_time": 1558072449,
+        "share_img": "https://image.cailianpress.com/share/roll.png",
+        "img": "",
+        "jpush": 1,
+        "level": "B",
+        "author_extends": "",
+        "bold": 0,
+        "audio_url": [
+          "https://image.cailianpress.com/admin/20190517/135409h3XFyQ2Xwiif.mp3"
+        ],
+        "comment_num": 0,
+        "share_num": 0,
+        "stock_list": [],
+        "subjects": [
+          {
+            "article_id": 347788,
+            "subject_id": 1103,
+            "subject_name": "A股盘面直播",
+            "subject_description": "",
+            "category_id": 0
+          }
+        ],
+        "deny_comment": 0,
+        "user_id": 91,
+        "imgs": [],
+        "shareurl": "https://api3.cls.cn/share/article/347788?os=&sv=6.9.8",
+        "ctime": 1558072449,
+        "sort_score": 1558072449,
+        "status": 1,
+        "reading_num": 0,
+        "in_roll": 1,
+        "title": "快讯",
+        "images": [],
+        "is_ad": 0,
+        "tags": [],
+        "content": "【快讯】财联社5月17日讯，沪指午后跌幅扩大至2%。",
+        "brief": "【快讯】财联社5月17日讯，沪指午后跌幅扩大至2%。",
+        "type": -1,
+        "sub_titles": [],
+        "id": 347788,
+        "recommend": 1,
+        "depth_extends": "[]",
+        "explain_num": -1,
+        "has_img": 0,
+        "category": "",
+        "collection": 0,
+        "confirmed": 0
+      }
+    ],
+    "update_num": 1
+  },
+  "vipData": []
+}]

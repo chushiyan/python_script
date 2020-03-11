@@ -1,0 +1,11 @@
+
+# getting the name of race
+scrapy crawl  -o  re.json  race_name_spider
+
+#
+scrapy crawl  -a race=  -a  y=   result_spider
+# eg:
+
+scrapy crawl  -a  race=france -a y=2019 result_spider
+
+scrapy crawl  -a  race=uk -a y=2019 result_spider

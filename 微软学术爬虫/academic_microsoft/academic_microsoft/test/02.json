@@ -1,0 +1,29 @@
+[
+  {
+    "query": "blockchain",
+    "queryExpression": "",
+    "filters": [],
+    "orderBy": 0,
+    "skip": 0,
+    "sortAscending": true,
+    "take": 10
+  },
+  {
+    "query": "blockchain",
+    "queryExpression": "",
+    "filters": [],
+    "orderBy": 0,
+    "skip": 10,
+    "sortAscending": true,
+    "take": 10
+  },
+  {
+    "query": "blockchain",
+    "queryExpression": "",
+    "filters": [],
+    "orderBy": 0,
+    "skip": 20,
+    "sortAscending": true,
+    "take": 10
+  }
+]
