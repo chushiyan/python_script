@@ -1,0 +1,136 @@
+2019-05-24 08:58:23,690	File "sender.py",line 105	INFO: ADSL is Starting, And Removing Proxy, Please wait......
+2019-05-24 08:58:23,719	File "sender.py",line 84	INFO: Successfully Removed Proxy
+2019-05-24 08:58:32,204	File "sender.py",line 124	INFO: ADSL Successfully
+2019-05-24 08:58:32,234	File "sender.py",line 130	INFO: The new IP is : 59.54.222.170
+2019-05-24 08:58:32,241	File "sender.py",line 131	INFO: Testing Proxy, Please Wait
+2019-05-24 08:58:32,453	File "sender.py",line 137	INFO: This is a valid proxy
+2019-05-24 08:58:32,548	File "sender.py",line 96	INFO: Successfully Set Proxy : 59.54.222.170:3435
+2019-05-24 08:58:32,548	File "sender.py",line 140	INFO: The program is sleeping for 420 second
+2019-05-24 09:05:32,556	File "sender.py",line 105	INFO: ADSL is Starting, And Removing Proxy, Please wait......
+2019-05-24 09:05:32,588	File "sender.py",line 84	INFO: Successfully Removed Proxy
+2019-05-24 09:05:41,179	File "sender.py",line 124	INFO: ADSL Successfully
+2019-05-24 09:05:41,212	File "sender.py",line 130	INFO: The new IP is : 111.79.35.67
+2019-05-24 09:05:41,214	File "sender.py",line 131	INFO: Testing Proxy, Please Wait
+2019-05-24 09:05:41,416	File "sender.py",line 137	INFO: This is a valid proxy
+2019-05-24 09:05:41,490	File "sender.py",line 96	INFO: Successfully Set Proxy : 111.79.35.67:3435
+2019-05-24 09:05:41,491	File "sender.py",line 140	INFO: The program is sleeping for 420 second
+2019-05-24 09:12:41,590	File "sender.py",line 105	INFO: ADSL is Starting, And Removing Proxy, Please wait......
+2019-05-24 09:12:41,616	File "sender.py",line 84	INFO: Successfully Removed Proxy
+2019-05-24 09:12:50,154	File "sender.py",line 124	INFO: ADSL Successfully
+2019-05-24 09:12:50,164	File "sender.py",line 130	INFO: The new IP is : 117.45.217.75
+2019-05-24 09:12:50,164	File "sender.py",line 131	INFO: Testing Proxy, Please Wait
+2019-05-24 09:12:50,303	File "sender.py",line 137	INFO: This is a valid proxy
+2019-05-24 09:12:50,394	File "sender.py",line 96	INFO: Successfully Set Proxy : 117.45.217.75:3435
+2019-05-24 09:12:50,394	File "sender.py",line 140	INFO: The program is sleeping for 420 second
+2019-05-24 09:19:50,468	File "sender.py",line 105	INFO: ADSL is Starting, And Removing Proxy, Please wait......
+2019-05-24 09:19:50,499	File "sender.py",line 84	INFO: Successfully Removed Proxy
+2019-05-24 09:19:59,149	File "sender.py",line 124	INFO: ADSL Successfully
+2019-05-24 09:19:59,175	File "sender.py",line 130	INFO: The new IP is : 106.4.119.106
+2019-05-24 09:19:59,176	File "sender.py",line 131	INFO: Testing Proxy, Please Wait
+2019-05-24 09:19:59,388	File "sender.py",line 137	INFO: This is a valid proxy
+2019-05-24 09:19:59,479	File "sender.py",line 96	INFO: Successfully Set Proxy : 106.4.119.106:3435
+2019-05-24 09:19:59,480	File "sender.py",line 140	INFO: The program is sleeping for 420 second
+2019-05-24 09:26:59,561	File "sender.py",line 105	INFO: ADSL is Starting, And Removing Proxy, Please wait......
+2019-05-24 09:26:59,591	File "sender.py",line 84	INFO: Successfully Removed Proxy
+2019-05-24 09:27:08,441	File "sender.py",line 124	INFO: ADSL Successfully
+2019-05-24 09:27:08,470	File "sender.py",line 130	INFO: The new IP is : 61.131.161.166
+2019-05-24 09:27:08,471	File "sender.py",line 131	INFO: Testing Proxy, Please Wait
+2019-05-24 09:27:08,692	File "sender.py",line 137	INFO: This is a valid proxy
+2019-05-24 09:27:08,776	File "sender.py",line 96	INFO: Successfully Set Proxy : 61.131.161.166:3435
+2019-05-24 09:27:08,777	File "sender.py",line 140	INFO: The program is sleeping for 420 second
+2019-05-24 09:34:08,877	File "sender.py",line 105	INFO: ADSL is Starting, And Removing Proxy, Please wait......
+2019-05-24 09:34:08,904	File "sender.py",line 84	INFO: Successfully Removed Proxy
+2019-05-24 09:34:17,525	File "sender.py",line 124	INFO: ADSL Successfully
+2019-05-24 09:34:17,554	File "sender.py",line 130	INFO: The new IP is : 117.45.150.87
+2019-05-24 09:34:17,555	File "sender.py",line 131	INFO: Testing Proxy, Please Wait
+2019-05-24 09:34:17,768	File "sender.py",line 137	INFO: This is a valid proxy
+2019-05-24 09:34:17,836	File "sender.py",line 96	INFO: Successfully Set Proxy : 117.45.150.87:3435
+2019-05-24 09:34:17,836	File "sender.py",line 140	INFO: The program is sleeping for 420 second
+2019-05-24 09:41:17,935	File "sender.py",line 105	INFO: ADSL is Starting, And Removing Proxy, Please wait......
+2019-05-24 09:41:17,958	File "sender.py",line 84	INFO: Successfully Removed Proxy
+2019-05-24 09:41:26,619	File "sender.py",line 124	INFO: ADSL Successfully
+2019-05-24 09:41:26,658	File "sender.py",line 130	INFO: The new IP is : 117.45.217.155
+2019-05-24 09:41:26,660	File "sender.py",line 131	INFO: Testing Proxy, Please Wait
+2019-05-24 09:41:26,888	File "sender.py",line 137	INFO: This is a valid proxy
+2019-05-24 09:41:26,963	File "sender.py",line 96	INFO: Successfully Set Proxy : 117.45.217.155:3435
+2019-05-24 09:41:26,963	File "sender.py",line 140	INFO: The program is sleeping for 420 second
+2019-05-24 09:48:27,059	File "sender.py",line 105	INFO: ADSL is Starting, And Removing Proxy, Please wait......
+2019-05-24 09:48:27,084	File "sender.py",line 84	INFO: Successfully Removed Proxy
+2019-05-24 09:48:35,513	File "sender.py",line 124	INFO: ADSL Successfully
+2019-05-24 09:48:35,523	File "sender.py",line 130	INFO: The new IP is : 61.131.161.49
+2019-05-24 09:48:35,523	File "sender.py",line 131	INFO: Testing Proxy, Please Wait
+2019-05-24 09:48:35,756	File "sender.py",line 137	INFO: This is a valid proxy
+2019-05-24 09:48:35,864	File "sender.py",line 96	INFO: Successfully Set Proxy : 61.131.161.49:3435
+2019-05-24 09:48:35,865	File "sender.py",line 140	INFO: The program is sleeping for 420 second
+2019-05-24 09:55:35,897	File "sender.py",line 105	INFO: ADSL is Starting, And Removing Proxy, Please wait......
+2019-05-24 09:55:35,933	File "sender.py",line 84	INFO: Successfully Removed Proxy
+2019-05-24 09:55:44,801	File "sender.py",line 124	INFO: ADSL Successfully
+2019-05-24 09:55:44,840	File "sender.py",line 130	INFO: The new IP is : 111.79.34.28
+2019-05-24 09:55:44,843	File "sender.py",line 131	INFO: Testing Proxy, Please Wait
+2019-05-24 09:55:45,062	File "sender.py",line 137	INFO: This is a valid proxy
+2019-05-24 09:55:45,141	File "sender.py",line 96	INFO: Successfully Set Proxy : 111.79.34.28:3435
+2019-05-24 09:55:45,141	File "sender.py",line 140	INFO: The program is sleeping for 420 second
+2019-05-24 10:02:45,201	File "sender.py",line 105	INFO: ADSL is Starting, And Removing Proxy, Please wait......
+2019-05-24 10:02:45,227	File "sender.py",line 84	INFO: Successfully Removed Proxy
+2019-05-24 10:02:53,594	File "sender.py",line 124	INFO: ADSL Successfully
+2019-05-24 10:02:53,624	File "sender.py",line 130	INFO: The new IP is : 59.54.100.145
+2019-05-24 10:02:53,630	File "sender.py",line 131	INFO: Testing Proxy, Please Wait
+2019-05-24 10:02:53,858	File "sender.py",line 137	INFO: This is a valid proxy
+2019-05-24 10:02:53,950	File "sender.py",line 96	INFO: Successfully Set Proxy : 59.54.100.145:3435
+2019-05-24 10:02:53,951	File "sender.py",line 140	INFO: The program is sleeping for 420 second
+2019-05-24 10:09:54,013	File "sender.py",line 105	INFO: ADSL is Starting, And Removing Proxy, Please wait......
+2019-05-24 10:09:54,044	File "sender.py",line 84	INFO: Successfully Removed Proxy
+2019-05-24 10:10:02,658	File "sender.py",line 124	INFO: ADSL Successfully
+2019-05-24 10:10:02,695	File "sender.py",line 130	INFO: The new IP is : 182.108.86.50
+2019-05-24 10:10:02,696	File "sender.py",line 131	INFO: Testing Proxy, Please Wait
+2019-05-24 10:10:02,889	File "sender.py",line 137	INFO: This is a valid proxy
+2019-05-24 10:10:02,984	File "sender.py",line 96	INFO: Successfully Set Proxy : 182.108.86.50:3435
+2019-05-24 10:10:02,985	File "sender.py",line 140	INFO: The program is sleeping for 420 second
+2019-05-24 10:17:03,053	File "sender.py",line 105	INFO: ADSL is Starting, And Removing Proxy, Please wait......
+2019-05-24 10:17:03,085	File "sender.py",line 84	INFO: Successfully Removed Proxy
+2019-05-24 10:17:11,771	File "sender.py",line 124	INFO: ADSL Successfully
+2019-05-24 10:17:11,781	File "sender.py",line 130	INFO: The new IP is : 117.45.150.60
+2019-05-24 10:17:11,781	File "sender.py",line 131	INFO: Testing Proxy, Please Wait
+2019-05-24 10:17:11,957	File "sender.py",line 137	INFO: This is a valid proxy
+2019-05-24 10:17:12,018	File "sender.py",line 96	INFO: Successfully Set Proxy : 117.45.150.60:3435
+2019-05-24 10:17:12,018	File "sender.py",line 140	INFO: The program is sleeping for 420 second
+2019-05-24 10:24:12,119	File "sender.py",line 105	INFO: ADSL is Starting, And Removing Proxy, Please wait......
+2019-05-24 10:24:12,141	File "sender.py",line 84	INFO: Successfully Removed Proxy
+2019-05-24 10:24:20,735	File "sender.py",line 124	INFO: ADSL Successfully
+2019-05-24 10:24:20,765	File "sender.py",line 130	INFO: The new IP is : 117.45.217.211
+2019-05-24 10:24:20,766	File "sender.py",line 131	INFO: Testing Proxy, Please Wait
+2019-05-24 10:24:20,965	File "sender.py",line 137	INFO: This is a valid proxy
+2019-05-24 10:24:21,037	File "sender.py",line 96	INFO: Successfully Set Proxy : 117.45.217.211:3435
+2019-05-24 10:24:21,038	File "sender.py",line 140	INFO: The program is sleeping for 420 second
+2019-05-24 10:31:21,075	File "sender.py",line 105	INFO: ADSL is Starting, And Removing Proxy, Please wait......
+2019-05-24 10:31:21,097	File "sender.py",line 84	INFO: Successfully Removed Proxy
+2019-05-24 10:31:29,552	File "sender.py",line 124	INFO: ADSL Successfully
+2019-05-24 10:31:29,581	File "sender.py",line 130	INFO: The new IP is : 61.131.161.136
+2019-05-24 10:31:29,582	File "sender.py",line 131	INFO: Testing Proxy, Please Wait
+2019-05-24 10:31:29,777	File "sender.py",line 137	INFO: This is a valid proxy
+2019-05-24 10:31:29,855	File "sender.py",line 96	INFO: Successfully Set Proxy : 61.131.161.136:3435
+2019-05-24 10:31:29,855	File "sender.py",line 140	INFO: The program is sleeping for 420 second
+2019-05-24 10:38:29,935	File "sender.py",line 105	INFO: ADSL is Starting, And Removing Proxy, Please wait......
+2019-05-24 10:38:29,961	File "sender.py",line 84	INFO: Successfully Removed Proxy
+2019-05-24 10:38:38,218	File "sender.py",line 124	INFO: ADSL Successfully
+2019-05-24 10:38:38,247	File "sender.py",line 130	INFO: The new IP is : 117.45.217.221
+2019-05-24 10:38:38,248	File "sender.py",line 131	INFO: Testing Proxy, Please Wait
+2019-05-24 10:38:38,507	File "sender.py",line 137	INFO: This is a valid proxy
+2019-05-24 10:38:38,602	File "sender.py",line 96	INFO: Successfully Set Proxy : 117.45.217.221:3435
+2019-05-24 10:38:38,602	File "sender.py",line 140	INFO: The program is sleeping for 420 second
+2019-05-24 10:45:38,612	File "sender.py",line 105	INFO: ADSL is Starting, And Removing Proxy, Please wait......
+2019-05-24 10:45:38,643	File "sender.py",line 84	INFO: Successfully Removed Proxy
+2019-05-24 10:45:46,903	File "sender.py",line 124	INFO: ADSL Successfully
+2019-05-24 10:45:46,913	File "sender.py",line 130	INFO: The new IP is : 117.45.145.245
+2019-05-24 10:45:46,918	File "sender.py",line 131	INFO: Testing Proxy, Please Wait
+2019-05-24 10:45:47,047	File "sender.py",line 137	INFO: This is a valid proxy
+2019-05-24 10:45:47,163	File "sender.py",line 96	INFO: Successfully Set Proxy : 117.45.145.245:3435
+2019-05-24 10:45:47,163	File "sender.py",line 140	INFO: The program is sleeping for 420 second
+2019-05-24 10:52:47,193	File "sender.py",line 105	INFO: ADSL is Starting, And Removing Proxy, Please wait......
+2019-05-24 10:52:47,309	File "sender.py",line 84	INFO: Successfully Removed Proxy
+2019-05-24 10:52:55,817	File "sender.py",line 124	INFO: ADSL Successfully
+2019-05-24 10:52:55,827	File "sender.py",line 130	INFO: The new IP is : 59.54.96.155
+2019-05-24 10:52:55,828	File "sender.py",line 131	INFO: Testing Proxy, Please Wait
+2019-05-24 10:52:55,979	File "sender.py",line 137	INFO: This is a valid proxy
+2019-05-24 10:52:56,093	File "sender.py",line 96	INFO: Successfully Set Proxy : 59.54.96.155:3435
+2019-05-24 10:52:56,093	File "sender.py",line 140	INFO: The program is sleeping for 420 second

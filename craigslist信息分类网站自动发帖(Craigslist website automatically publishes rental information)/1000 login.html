@@ -1,0 +1,2856 @@
+<!DOCTYPE html>
+<html class="no-js"><head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <title>craigslist account</title>
+
+    <meta name="description" content="craigslist account">
+    <link type="text/css" rel="stylesheet" media="all" href="//www.craigslist.org/styles/jquery-ui-clcustom.css?v=3b05ddffb7c7f5b62066deff2dda9339">
+    <link type="text/css" rel="stylesheet" media="all" href="//www.craigslist.org/styles/cl.css?v=784f71fcd82733e2b32e8d3284beaf58">
+    <link type="text/css" rel="stylesheet" media="all" href="//www.craigslist.org/styles/tablesorter.css?v=93d1540ab8a10bcb0807a2677494eb9b">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="//www.craigslist.org/js/jquery-1.11.3.min.js?v=18e625bf239d42d2fa20b69885c25848" type="text/javascript" ></script>
+
+    
+</head>
+
+<body class="account">
+<script type="text/javascript"><!--
+    function C(k){return(document.cookie.match('(^|; )'+k+'=([^;]*)')||0)[2]}
+    var pagetype, pagemode;
+    (function(){
+        var h = document.documentElement;
+        h.className = h.className.replace('no-js', 'js');
+        var b = document.body;
+        var bodyClassList = b.className.split(/\s+/);;
+        pagetype = bodyClassList[0]; // dangerous assumption
+        var fmt = C('cl_fmt');
+        if ( fmt === 'regular' || fmt === 'mobile' ) {
+            pagemode = fmt;
+        } else if (screen.width <= 480) {
+            pagemode = 'mobile';
+        } else {
+            pagemode = 'regular';
+        }
+        pagemode = pagemode === 'mobile' ? 'mobile' : 'desktop';
+        bodyClassList.push(pagemode);
+        if (C('hidesearch') === '1' && pagemode !== 'mobile') {
+            bodyClassList.push('hide-search');
+        }
+        var width = window.innerWidth || document.documentElement.clientWidth;
+        if (width > 1000) { bodyClassList.push('w1024'); }
+        if (typeof window.sectionBase !== 'undefined') {
+            var mode = (decodeURIComponent(C('cl_tocmode') || '').match(new RegExp(window.sectionBase + ':([^,]+)', 'i')) || {})[1] || window.defaultView;
+            if (mode) {
+                bodyClassList.push(mode);
+            }
+        }
+        b.className = bodyClassList.join(' ');
+    }());
+--></script>
+
+
+<article class="page-container">
+<header class="account-header">
+    <span id="ef">
+        [ <a href="https://accounts.craigslist.org/logout">log out</a> ]
+            [ <a href="https://www.craigslist.org/about/help/">help pages</a> ]
+    </span>
+
+    <a href="http://www.craigslist.org">craigslist</a> &gt;
+    <a href="https://accounts.craigslist.org/login/home">home of chushiyan0415@163.com</a>
+
+    <div class="tabcontainer">
+        
+        <span class="tab">
+        <b>
+    postings 
+        </b>
+</span>
+
+        <span class="tab">
+        <a href="https://accounts.craigslist.org/login/home?show_tab=drafts">
+    drafts          <span class="count">20</span>
+
+        </a>
+</span>
+
+        <span class="tab">
+        <a href="https://accounts.craigslist.org/login/home?show_tab=searches">
+    searches 
+        </a>
+</span>
+
+        <span class="tab">
+        <a href="https://accounts.craigslist.org/login/home?show_tab=settings">
+    settings 
+        </a>
+</span>
+
+        <span class="tab">
+        <a href="https://accounts.craigslist.org/login/home?show_tab=billing">
+    billing 
+        </a>
+</span>
+
+    </div>
+</header>
+
+<section class="body"> 
+
+<form id="account-homepage-form" method="POST" action="https://accounts.craigslist.org/login/home">
+
+  <fieldset id="searchfieldset">
+    <legend id="searchlegend">
+      <span class="filtertxt">
+find your postings      </span>
+
+      <span>
+        <button class="filterbtn" type="submit"></button>
+        &nbsp;|&nbsp;
+
+            <span class="filtertxt"><b>most recent</b></span>
+
+        &nbsp;|&nbsp;
+
+            <button class="filterbtn" name="filter_active" value="active" type="submit">active</button>
+
+
+        &nbsp;|&nbsp;
+
+            <button class="filterbtn" name="filter_active" value="inactive" type="submit">inactive</button>
+
+        &nbsp;|&nbsp;
+
+            <button class="filterbtn" name="filter_active" value="all" type="submit">all postings</button>
+
+      </span>
+
+    </legend>
+    <input type="hidden" name="viewProfile" value="">
+    <input type="hidden" name="viewAccount" value="">
+
+
+  <table id="searchtable">
+    <tbody>
+      <tr><td> in category:
+            <select id="catAbb" name="filter_cat" class="autosubmit filter_cat">
+              <option value="0"> any</option>
+            </select>
+        </td>
+        <td>
+posted during           <input type="hidden" name="last_date" value="">
+           <select name="filter_date" class="autosubmit filter_date">
+              <option value="">any month</option>
+           </select>
+        </td>
+        <td>
+            <input type="text" id="terms" name="terms" placeholder="search your postings" value="">
+            &nbsp;<input value="search" type="submit">
+          </td>
+        </tr>
+    </tbody></table>
+  </fieldset>
+</form>
+
+<form class="new_posting_thing" action="/login/pstrdr" method="post">
+new posting in:  <select name="areaabb">
+     <option value="">choose</option>
+     <option value="abz" >
+       aberdeen, 
+GB     </option>
+     <option value="abi" >
+       abilene, 
+             TX,
+US     </option>
+     <option value="aca" >
+       acapulco, 
+MX     </option>
+     <option value="adl" >
+       adelaide, 
+             SA,
+AU     </option>
+     <option value="amd" >
+       ahmedabad, 
+IN     </option>
+     <option value="cak" >
+       akron-canton, 
+             OH,
+US     </option>
+     <option value="aby" >
+       albany, GA, 
+             GA,
+US     </option>
+     <option value="alb" >
+       albany, NY, 
+             NY,
+US     </option>
+     <option value="abq" >
+       albuquerque, 
+             NM,
+US     </option>
+     <option value="alc" >
+       alicante, 
+ES     </option>
+     <option value="alt" >
+       allentown, 
+             PA,
+US     </option>
+     <option value="aoo" >
+       altoona, 
+             PA,
+US     </option>
+     <option value="ama" >
+       amarillo, 
+             TX,
+US     </option>
+     <option value="ame" >
+       ames, IA, 
+             IA,
+US     </option>
+     <option value="ams" >
+       amsterdam, 
+NL     </option>
+     <option value="anc" >
+       anchorage, 
+             AK,
+US     </option>
+     <option value="anp" >
+       annapolis, 
+             MD,
+US     </option>
+     <option value="aaa" >
+       ann arbor, 
+             MI,
+US     </option>
+     <option value="app" >
+       appleton, 
+             WI,
+US     </option>
+     <option value="ash" >
+       asheville, 
+             NC,
+US     </option>
+     <option value="jfn" >
+       ashtabula, 
+             OH,
+US     </option>
+     <option value="ahn" >
+       athens, GA, 
+             GA,
+US     </option>
+     <option value="ohu" >
+       athens, OH, 
+             OH,
+US     </option>
+     <option value="atl" >
+       atlanta, 
+             GA,
+US     </option>
+     <option value="aub" >
+       auburn, 
+             AL,
+US     </option>
+     <option value="akl" >
+       auckland, 
+NZ     </option>
+     <option value="aug" >
+       augusta, 
+             GA,
+US     </option>
+     <option value="aus" >
+       austin, 
+             TX,
+US     </option>
+     <option value="bcd" >
+       bacolod, 
+PH     </option>
+     <option value="bcs" >
+       baja sur, 
+MX     </option>
+     <option value="bak" >
+       bakersfield, 
+             CA,
+US     </option>
+     <option value="ibz" >
+       baleares, 
+ES     </option>
+     <option value="bal" >
+       baltimore, 
+             MD,
+US     </option>
+     <option value="bng" >
+       bangalore, 
+IN     </option>
+     <option value="bgl" >
+       bangladesh, 
+BD     </option>
+     <option value="bar" >
+       barcelona, 
+ES     </option>
+     <option value="brr" >
+       barrie, 
+             ON,
+CA     </option>
+     <option value="bsl" >
+       basel, 
+CH     </option>
+     <option value="bth" >
+       bath, 
+GB     </option>
+     <option value="btr" >
+       baton rouge, 
+             LA,
+US     </option>
+     <option value="btc" >
+       battle creek, 
+             MI,
+US     </option>
+     <option value="bpt" >
+       beaumont, 
+             TX,
+US     </option>
+     <option value="pek" >
+       beijing, 
+CN     </option>
+     <option value="bey" >
+       beirut, 
+LB     </option>
+     <option value="blf" >
+       belfast, 
+GB     </option>
+     <option value="bru" >
+       belgium, 
+BE     </option>
+     <option value="bel" >
+       belleville, ON, 
+             ON,
+CA     </option>
+     <option value="bli" >
+       bellingham, 
+             WA,
+US     </option>
+     <option value="cnf" >
+       belo horizonte, 
+BR     </option>
+     <option value="bji" >
+       bemidji, 
+             MN,
+US     </option>
+     <option value="bnd" >
+       bend, 
+             OR,
+US     </option>
+     <option value="ber" >
+       berlin, 
+DE     </option>
+     <option value="brn" >
+       bern, 
+CH     </option>
+     <option value="bbi" >
+       bhubaneswar, 
+IN     </option>
+     <option value="wnp" >
+       bicol region, 
+PH     </option>
+     <option value="bio" >
+       bilbao, 
+ES     </option>
+     <option value="bil" >
+       billings, 
+             MT,
+US     </option>
+     <option value="bgm" >
+       binghamton, 
+             NY,
+US     </option>
+     <option value="bhm" >
+       birmingham, AL, 
+             AL,
+US     </option>
+     <option value="bhx" >
+       birmingham, UK, 
+GB     </option>
+     <option value="bis" >
+       bismarck, 
+             ND,
+US     </option>
+     <option value="vpi" >
+       blacksburg, 
+             VA,
+US     </option>
+     <option value="bln" >
+       bloomington, IL, 
+             IL,
+US     </option>
+     <option value="bmg" >
+       bloomington, IN, 
+             IN,
+US     </option>
+     <option value="boi" >
+       boise, 
+             ID,
+US     </option>
+     <option value="lpb" >
+       bolivia, 
+BO     </option>
+     <option value="blq" >
+       bologna, 
+IT     </option>
+     <option value="bnc" >
+       boone, 
+             NC,
+US     </option>
+     <option value="bod" >
+       bordeaux, 
+FR     </option>
+     <option value="bos" >
+       boston, 
+             MA,
+US     </option>
+     <option value="bou" >
+       boulder, 
+             CO,
+US     </option>
+     <option value="blg" >
+       bowling green, 
+             KY,
+US     </option>
+     <option value="bzn" >
+       bozeman, 
+             MT,
+US     </option>
+     <option value="brd" >
+       brainerd, 
+             MN,
+US     </option>
+     <option value="bfd" >
+       brantford, 
+             ON,
+CA     </option>
+     <option value="bsb" >
+       brasilia, 
+BR     </option>
+     <option value="brm" >
+       bremen, 
+DE     </option>
+     <option value="bri" >
+       brighton, 
+GB     </option>
+     <option value="bne" >
+       brisbane, 
+             QLD,
+AU     </option>
+     <option value="brs" >
+       bristol, 
+GB     </option>
+     <option value="rns" >
+       brittany, 
+FR     </option>
+     <option value="bro" >
+       brownsville, 
+             TX,
+US     </option>
+     <option value="bwk" >
+       brunswick, GA, 
+             GA,
+US     </option>
+     <option value="bud" >
+       budapest, 
+HU     </option>
+     <option value="bue" >
+       buenos aires, 
+AR     </option>
+     <option value="buf" >
+       buffalo, 
+             NY,
+US     </option>
+     <option value="sof" >
+       bulgaria, 
+BG     </option>
+     <option value="btm" >
+       butte, 
+             MT,
+US     </option>
+     <option value="cdz" >
+       cadiz, 
+ES     </option>
+     <option value="cdo" >
+       cagayan de oro, 
+PH     </option>
+     <option value="cns" >
+       cairns, 
+             QLD,
+AU     </option>
+     <option value="clg" >
+       calgary, 
+             AB,
+CA     </option>
+     <option value="cam" >
+       cambridge, 
+GB     </option>
+     <option value="tfn" >
+       canarias, 
+ES     </option>
+     <option value="cbr" >
+       canberra, 
+             NSW,
+AU     </option>
+     <option value="cap" >
+       cape cod, 
+             MA,
+US     </option>
+     <option value="cpt" >
+       cape town, 
+ZA     </option>
+     <option value="cym" >
+       cardiff, 
+GB     </option>
+     <option value="crb" >
+       caribbean, 
+     </option>
+     <option value="cbo" >
+       cariboo, 
+             BC,
+CA     </option>
+     <option value="cat" >
+       catskills, 
+             NY,
+US     </option>
+     <option value="ceb" >
+       cebu, 
+PH     </option>
+     <option value="ced" >
+       cedar rapids, 
+             IA,
+US     </option>
+     <option value="aex" >
+       central LA, 
+             LA,
+US     </option>
+     <option value="cmu" >
+       central MI, 
+             MI,
+US     </option>
+     <option value="cnj" >
+       central NJ, 
+             NJ,
+US     </option>
+     <option value="csd" >
+       central SD, 
+             SD,
+US     </option>
+     <option value="chm" >
+       chambana, 
+             IL,
+US     </option>
+     <option value="ixc" >
+       chandigarh, 
+IN     </option>
+     <option value="chs" >
+       charleston, 
+             SC,
+US     </option>
+     <option value="crw" >
+       charleston, WV, 
+             WV,
+US     </option>
+     <option value="cha" >
+       charlotte, 
+             NC,
+US     </option>
+     <option value="uva" >
+       charlottesville, 
+             VA,
+US     </option>
+     <option value="chk" >
+       chatham-kent, 
+             ON,
+CA     </option>
+     <option value="cht" >
+       chattanooga, 
+             TN,
+US     </option>
+     <option value="chq" >
+       chautauqua, 
+             NY,
+US     </option>
+     <option value="ctu" >
+       chengdu, 
+CN     </option>
+     <option value="che" >
+       chennai, 
+IN     </option>
+     <option value="chi" >
+       chicago, 
+             IL,
+US     </option>
+     <option value="chc" >
+       chico, 
+             CA,
+US     </option>
+     <option value="chh" >
+       chihuahua, 
+MX     </option>
+     <option value="scl" >
+       chile, 
+CL     </option>
+     <option value="chl" >
+       chillicothe, 
+             OH,
+US     </option>
+     <option value="ckg" >
+       chongqing, 
+CN     </option>
+     <option value="chr" >
+       christchurch, 
+NZ     </option>
+     <option value="cin" >
+       cincinnati, 
+             OH,
+US     </option>
+     <option value="cjs" >
+       ciudad juarez, 
+MX     </option>
+     <option value="ckv" >
+       clarksville, TN, 
+             TN,
+US     </option>
+     <option value="cle" >
+       cleveland, 
+             OH,
+US     </option>
+     <option value="cvn" >
+       clovis-portales, 
+             NM,
+US     </option>
+     <option value="cst" >
+       college station, 
+             TX,
+US     </option>
+     <option value="cgn" >
+       cologne, 
+DE     </option>
+     <option value="bog" >
+       colombia, 
+CO     </option>
+     <option value="cos" >
+       colo springs, 
+             CO,
+US     </option>
+     <option value="cae" >
+       columbia, 
+             SC,
+US     </option>
+     <option value="cou" >
+       columbia, MO, 
+             MO,
+US     </option>
+     <option value="csg" >
+       columbus, GA, 
+             GA,
+US     </option>
+     <option value="col" >
+       columbus, OH, 
+             OH,
+US     </option>
+     <option value="cmx" >
+       comox valley, 
+             BC,
+CA     </option>
+     <option value="coo" >
+       cookeville, 
+             TN,
+US     </option>
+     <option value="cop" >
+       copenhagen, 
+DK     </option>
+     <option value="ycc" >
+       cornwall, ON, 
+             ON,
+CA     </option>
+     <option value="crp" >
+       corpus christi, 
+             TX,
+US     </option>
+     <option value="crv" >
+       corvallis, 
+             OR,
+US     </option>
+     <option value="cri" >
+       costa rica, 
+CR     </option>
+     <option value="nce" >
+       cote d&#39;azur, 
+FR     </option>
+     <option value="cov" >
+       coventry, 
+GB     </option>
+     <option value="zag" >
+       croatia, 
+HR     </option>
+     <option value="cbg" >
+       cumberland val, 
+             PA,
+US     </option>
+     <option value="cwb" >
+       curitiba, 
+BR     </option>
+     <option value="dlc" >
+       dalian, 
+CN     </option>
+     <option value="dal" >
+       dallas, 
+             TX,
+US     </option>
+     <option value="dnv" >
+       danville, 
+             VA,
+US     </option>
+     <option value="drw" >
+       darwin, 
+             NT,
+AU     </option>
+     <option value="dvo" >
+       davao city, 
+PH     </option>
+     <option value="day" >
+       dayton, 
+             OH,
+US     </option>
+     <option value="dab" >
+       daytona beach, 
+             FL,
+US     </option>
+     <option value="dil" >
+       decatur, IL, 
+             IL,
+US     </option>
+     <option value="och" >
+       deep east TX, 
+             TX,
+US     </option>
+     <option value="dlw" >
+       delaware, 
+             DE,
+US     </option>
+     <option value="del" >
+       delhi, 
+IN     </option>
+     <option value="drt" >
+       del rio, 
+             TX,
+US     </option>
+     <option value="den" >
+       denver, 
+             CO,
+US     </option>
+     <option value="dby" >
+       derby, 
+GB     </option>
+     <option value="dsm" >
+       des moines, 
+             IA,
+US     </option>
+     <option value="det" >
+       detroit metro, 
+             MI,
+US     </option>
+     <option value="dvc" >
+       devon &amp; cornwall, 
+GB     </option>
+     <option value="sdq" >
+       dominican, 
+DO     </option>
+     <option value="dhn" >
+       dothan, AL, 
+             AL,
+US     </option>
+     <option value="drs" >
+       dresden, 
+DE     </option>
+     <option value="dub" >
+       dublin, 
+IE     </option>
+     <option value="dbq" >
+       dubuque, 
+             IA,
+US     </option>
+     <option value="dlh" >
+       duluth, 
+             MN,
+US     </option>
+     <option value="dnd" >
+       dundee, 
+GB     </option>
+     <option value="dud" >
+       dunedin, 
+NZ     </option>
+     <option value="dur" >
+       durban, 
+ZA     </option>
+     <option value="dus" >
+       dusseldorf, 
+DE     </option>
+     <option value="nwh" >
+       east anglia, 
+GB     </option>
+     <option value="eco" >
+       eastern CO, 
+             CO,
+US     </option>
+     <option value="nlo" >
+       eastern CT, 
+             CT,
+US     </option>
+     <option value="eky" >
+       eastern KY, 
+             KY,
+US     </option>
+     <option value="mnt" >
+       eastern montana, 
+             MT,
+US     </option>
+     <option value="enc" >
+       eastern NC, 
+             NC,
+US     </option>
+     <option value="esh" >
+       eastern shore, 
+             MD,
+US     </option>
+     <option value="ewv" >
+       eastern WV, 
+             WV,
+US     </option>
+     <option value="eid" >
+       east idaho, 
+             ID,
+US     </option>
+     <option value="eml" >
+       east midlands, 
+GB     </option>
+     <option value="eor" >
+       east oregon, 
+             OR,
+US     </option>
+     <option value="etx" >
+       east TX, 
+             TX,
+US     </option>
+     <option value="eau" >
+       eau claire, 
+             WI,
+US     </option>
+     <option value="qui" >
+       ecuador, 
+EC     </option>
+     <option value="edi" >
+       edinburgh, 
+GB     </option>
+     <option value="edm" >
+       edmonton, 
+             AB,
+CA     </option>
+     <option value="cai" >
+       egypt, 
+EG     </option>
+     <option value="elk" >
+       elko, 
+             NV,
+US     </option>
+     <option value="elm" >
+       elmira, 
+             NY,
+US     </option>
+     <option value="elp" >
+       el paso, 
+             TX,
+US     </option>
+     <option value="sal" >
+       el salvador, 
+SV     </option>
+     <option value="uae" >
+       emirates, 
+AE     </option>
+     <option value="eri" >
+       erie, PA, 
+             PA,
+US     </option>
+     <option value="ess" >
+       essen / ruhr, 
+DE     </option>
+     <option value="esx" >
+       essex, 
+GB     </option>
+     <option value="add" >
+       ethiopia, 
+ET     </option>
+     <option value="eug" >
+       eugene, 
+             OR,
+US     </option>
+     <option value="evv" >
+       evansville, 
+             IN,
+US     </option>
+     <option value="fai" >
+       fairbanks, 
+             AK,
+US     </option>
+     <option value="far" >
+       fargo, 
+             ND,
+US     </option>
+     <option value="fnm" >
+       farmington, NM, 
+             NM,
+US     </option>
+     <option value="fro" >
+       faro / algarve, 
+PT     </option>
+     <option value="fyv" >
+       fayetteville, AR, 
+             AR,
+US     </option>
+     <option value="fay" >
+       fayetteville, NC, 
+             NC,
+US     </option>
+     <option value="fgl" >
+       finger lakes, 
+             NY,
+US     </option>
+     <option value="hel" >
+       finland, 
+FI     </option>
+     <option value="flg" >
+       flagstaff, 
+             AZ,
+US     </option>
+     <option value="fnt" >
+       flint, 
+             MI,
+US     </option>
+     <option value="flr" >
+       florence, 
+IT     </option>
+     <option value="flo" >
+       florence, SC, 
+             SC,
+US     </option>
+     <option value="key" >
+       florida keys, 
+             FL,
+US     </option>
+     <option value="ftl" >
+       fortaleza, 
+BR     </option>
+     <option value="ftc" >
+       fort collins, 
+             CO,
+US     </option>
+     <option value="ftd" >
+       fort dodge, 
+             IA,
+US     </option>
+     <option value="fmy" >
+       fort myers, 
+             FL,
+US     </option>
+     <option value="fsm" >
+       fort smith, 
+             AR,
+US     </option>
+     <option value="fwa" >
+       fort wayne, 
+             IN,
+US     </option>
+     <option value="fra" >
+       frankfurt, 
+DE     </option>
+     <option value="abb" >
+       fraser valley, 
+             BC,
+CA     </option>
+     <option value="fdk" >
+       frederick, 
+             MD,
+US     </option>
+     <option value="ezf" >
+       fredericksburg, 
+             VA,
+US     </option>
+     <option value="fre" >
+       fresno, 
+             CA,
+US     </option>
+     <option value="fmc" >
+       ft mcmurray, 
+             AB,
+CA     </option>
+     <option value="fuk" >
+       fukuoka, 
+JP     </option>
+     <option value="anb" >
+       gadsden, 
+             AL,
+US     </option>
+     <option value="gnv" >
+       gainesville, 
+             FL,
+US     </option>
+     <option value="gls" >
+       galveston, 
+             TX,
+US     </option>
+     <option value="gva" >
+       geneva, 
+CH     </option>
+     <option value="gen" >
+       genoa, 
+IT     </option>
+     <option value="acc" >
+       ghana, 
+GH     </option>
+     <option value="gla" >
+       glasgow, 
+GB     </option>
+     <option value="gfl" >
+       glens falls, 
+             NY,
+US     </option>
+     <option value="goa" >
+       goa, 
+IN     </option>
+     <option value="ool" >
+       gold coast, 
+             QLD,
+AU     </option>
+     <option value="gld" >
+       gold country, 
+             CA,
+US     </option>
+     <option value="grx" >
+       granada, 
+ES     </option>
+     <option value="gfk" >
+       grand forks, 
+             ND,
+US     </option>
+     <option value="gil" >
+       grand island, 
+             NE,
+US     </option>
+     <option value="grr" >
+       grand rapids, 
+             MI,
+US     </option>
+     <option value="gtf" >
+       great falls, 
+             MT,
+US     </option>
+     <option value="ath" >
+       greece, 
+GR     </option>
+     <option value="grb" >
+       green bay, 
+             WI,
+US     </option>
+     <option value="gbo" >
+       greensboro, 
+             NC,
+US     </option>
+     <option value="gsp" >
+       greenville, 
+             SC,
+US     </option>
+     <option value="gnb" >
+       grenoble, 
+FR     </option>
+     <option value="gdl" >
+       guadalajara, 
+MX     </option>
+     <option value="bjx" >
+       guanajuato, 
+MX     </option>
+     <option value="can" >
+       guangzhou, 
+CN     </option>
+     <option value="gua" >
+       guatemala, 
+GT     </option>
+     <option value="gph" >
+       guelph, 
+             ON,
+CA     </option>
+     <option value="gpt" >
+       gulfport, 
+             MS,
+US     </option>
+     <option value="hfa" >
+       haifa, 
+IL     </option>
+     <option value="hfx" >
+       halifax, 
+             NS,
+CA     </option>
+     <option value="ham" >
+       hamburg, 
+DE     </option>
+     <option value="hml" >
+       hamilton, 
+             ON,
+CA     </option>
+     <option value="sou" >
+       hampshire, 
+GB     </option>
+     <option value="hnf" >
+       hanford, 
+             CA,
+US     </option>
+     <option value="hgh" >
+       hangzhou, 
+CN     </option>
+     <option value="haj" >
+       hannover, 
+DE     </option>
+     <option value="hrs" >
+       harrisburg, 
+             PA,
+US     </option>
+     <option value="shd" >
+       harrisonburg, 
+             VA,
+US     </option>
+     <option value="htf" >
+       hartford, 
+             CT,
+US     </option>
+     <option value="usm" >
+       hattiesburg, 
+             MS,
+US     </option>
+     <option value="hnl" >
+       hawaii, 
+             HI,
+US     </option>
+     <option value="cfl" >
+       heartland FL, 
+             FL,
+US     </option>
+     <option value="hdb" >
+       heidelberg, 
+DE     </option>
+     <option value="hln" >
+       helena, 
+             MT,
+US     </option>
+     <option value="hrm" >
+       hermosillo, 
+MX     </option>
+     <option value="hky" >
+       hickory, 
+             NC,
+US     </option>
+     <option value="rck" >
+       high rockies, 
+             CO,
+US     </option>
+     <option value="hhi" >
+       hilton head, 
+             SC,
+US     </option>
+     <option value="hij" >
+       hiroshima, 
+JP     </option>
+     <option value="hld" >
+       holland, 
+             MI,
+US     </option>
+     <option value="hkg" >
+       hong kong, 
+HK     </option>
+     <option value="hum" >
+       houma, 
+             LA,
+US     </option>
+     <option value="hou" >
+       houston, 
+             TX,
+US     </option>
+     <option value="hud" >
+       hudson valley, 
+             NY,
+US     </option>
+     <option value="hmb" >
+       humboldt, 
+             CA,
+US     </option>
+     <option value="hts" >
+       huntington, 
+             WV,
+US     </option>
+     <option value="hsv" >
+       huntsville, 
+             AL,
+US     </option>
+     <option value="hyd" >
+       hyderabad, 
+IN     </option>
+     <option value="ilo" >
+       iloilo, 
+PH     </option>
+     <option value="imp" >
+       imperial co, 
+             CA,
+US     </option>
+     <option value="ind" >
+       indianapolis, 
+             IN,
+US     </option>
+     <option value="jkt" >
+       indonesia, 
+ID     </option>
+     <option value="idr" >
+       indore, 
+IN     </option>
+     <option value="inl" >
+       inland empire, 
+             CA,
+US     </option>
+     <option value="iac" >
+       iowa city, 
+             IA,
+US     </option>
+     <option value="trh" >
+       iran, 
+IR     </option>
+     <option value="bgd" >
+       iraq, 
+IQ     </option>
+     <option value="ith" >
+       ithaca, 
+             NY,
+US     </option>
+     <option value="jxn" >
+       jackson, MI, 
+             MI,
+US     </option>
+     <option value="jan" >
+       jackson, MS, 
+             MS,
+US     </option>
+     <option value="jxt" >
+       jackson, TN, 
+             TN,
+US     </option>
+     <option value="jax" >
+       jacksonville, FL, 
+             FL,
+US     </option>
+     <option value="oaj" >
+       jacksonville, NC, 
+             NC,
+US     </option>
+     <option value="jai" >
+       jaipur, 
+IN     </option>
+     <option value="jvl" >
+       janesville, 
+             WI,
+US     </option>
+     <option value="jys" >
+       jersey shore, 
+             NJ,
+US     </option>
+     <option value="jrs" >
+       jerusalem, 
+IL     </option>
+     <option value="jnb" >
+       johannesburg, 
+ZA     </option>
+     <option value="jbr" >
+       jonesboro, 
+             AR,
+US     </option>
+     <option value="jln" >
+       joplin, 
+             MO,
+US     </option>
+     <option value="klt" >
+       kaiserslautern, 
+DE     </option>
+     <option value="kzo" >
+       kalamazoo, 
+             MI,
+US     </option>
+     <option value="fca" >
+       kalispell, 
+             MT,
+US     </option>
+     <option value="kml" >
+       kamloops, 
+             BC,
+CA     </option>
+     <option value="ksc" >
+       kansas city, 
+             MO,
+US     </option>
+     <option value="kel" >
+       kelowna, 
+             BC,
+CA     </option>
+     <option value="ena" >
+       kenai, 
+             AK,
+US     </option>
+     <option value="rac" >
+       kenosha-racine, 
+             WI,
+US     </option>
+     <option value="ken" >
+       kent, 
+GB     </option>
+     <option value="nbo" >
+       kenya, 
+KE     </option>
+     <option value="cok" >
+       kerala, 
+IN     </option>
+     <option value="grk" >
+       killeen-temple, 
+             TX,
+US     </option>
+     <option value="kng" >
+       kingston, ON, 
+             ON,
+CA     </option>
+     <option value="krk" >
+       kirksville, 
+             MO,
+US     </option>
+     <option value="kch" >
+       kitchener, 
+             ON,
+CA     </option>
+     <option value="klf" >
+       klamath falls, 
+             OR,
+US     </option>
+     <option value="knx" >
+       knoxville, 
+             TN,
+US     </option>
+     <option value="okk" >
+       kokomo, 
+             IN,
+US     </option>
+     <option value="kol" >
+       kolkata, 
+IN     </option>
+     <option value="koo" >
+       kootenays, 
+             BC,
+CA     </option>
+     <option value="kwi" >
+       kuwait, 
+KW     </option>
+     <option value="lse" >
+       la crosse, 
+             WI,
+US     </option>
+     <option value="lft" >
+       lafayette, 
+             LA,
+US     </option>
+     <option value="lkc" >
+       lake charles, 
+             LA,
+US     </option>
+     <option value="lcq" >
+       lake city, 
+             FL,
+US     </option>
+     <option value="lal" >
+       lakeland, 
+             FL,
+US     </option>
+     <option value="loz" >
+       lake of ozarks, 
+             MO,
+US     </option>
+     <option value="lns" >
+       lancaster, PA, 
+             PA,
+US     </option>
+     <option value="lan" >
+       lansing, 
+             MI,
+US     </option>
+     <option value="lrd" >
+       laredo, 
+             TX,
+US     </option>
+     <option value="lsl" >
+       la salle co, 
+             IL,
+US     </option>
+     <option value="lcr" >
+       las cruces, 
+             NM,
+US     </option>
+     <option value="lvg" >
+       las vegas, 
+             NV,
+US     </option>
+     <option value="lau" >
+       lausanne, 
+CH     </option>
+     <option value="lwr" >
+       lawrence, 
+             KS,
+US     </option>
+     <option value="law" >
+       lawton, 
+             OK,
+US     </option>
+     <option value="lds" >
+       leeds, 
+GB     </option>
+     <option value="lej" >
+       leipzig, 
+DE     </option>
+     <option value="lth" >
+       lethbridge, 
+             AB,
+CA     </option>
+     <option value="lws" >
+       lewiston, 
+             ID,
+US     </option>
+     <option value="lex" >
+       lexington, 
+             KY,
+US     </option>
+     <option value="lil" >
+       lille, 
+FR     </option>
+     <option value="lma" >
+       lima-findlay, 
+             OH,
+US     </option>
+     <option value="lnk" >
+       lincoln, 
+             NE,
+US     </option>
+     <option value="lis" >
+       lisbon, 
+PT     </option>
+     <option value="lit" >
+       little rock, 
+             AR,
+US     </option>
+     <option value="liv" >
+       liverpool, 
+GB     </option>
+     <option value="lgu" >
+       logan, 
+             UT,
+US     </option>
+     <option value="nte" >
+       loire valley, 
+FR     </option>
+     <option value="lon" >
+       london, ON, 
+             ON,
+CA     </option>
+     <option value="ldn" >
+       london, UK, 
+GB     </option>
+     <option value="isp" >
+       long island, 
+             NY,
+US     </option>
+     <option value="lax" >
+       los angeles, 
+             CA,
+US     </option>
+     <option value="lou" >
+       louisville, 
+             KY,
+US     </option>
+     <option value="lbb" >
+       lubbock, 
+             TX,
+US     </option>
+     <option value="lko" >
+       lucknow, 
+IN     </option>
+     <option value="lux" >
+       luxembourg, 
+LU     </option>
+     <option value="lyn" >
+       lynchburg, 
+             VA,
+US     </option>
+     <option value="lys" >
+       lyon, 
+FR     </option>
+     <option value="mcn" >
+       macon, 
+             GA,
+US     </option>
+     <option value="mad" >
+       madison, 
+             WI,
+US     </option>
+     <option value="mdd" >
+       madrid, 
+ES     </option>
+     <option value="mne" >
+       maine, 
+             ME,
+US     </option>
+     <option value="agp" >
+       malaga, 
+ES     </option>
+     <option value="mly" >
+       malaysia, 
+MY     </option>
+     <option value="man" >
+       manchester, 
+GB     </option>
+     <option value="mhk" >
+       manhattan, 
+             KS,
+US     </option>
+     <option value="mnl" >
+       manila, 
+PH     </option>
+     <option value="mkt" >
+       mankato, 
+             MN,
+US     </option>
+     <option value="mfd" >
+       mansfield, 
+             OH,
+US     </option>
+     <option value="mrs" >
+       marseille, 
+FR     </option>
+     <option value="msc" >
+       mason city, 
+             IA,
+US     </option>
+     <option value="mto" >
+       mattoon, 
+             IL,
+US     </option>
+     <option value="mzt" >
+       mazatlan, 
+MX     </option>
+     <option value="mca" >
+       mcallen, 
+             TX,
+US     </option>
+     <option value="mdv" >
+       meadville, 
+             PA,
+US     </option>
+     <option value="mfr" >
+       medford, 
+             OR,
+US     </option>
+     <option value="hat" >
+       medicine hat, 
+             AB,
+CA     </option>
+     <option value="mel" >
+       melbourne, 
+             VIC,
+AU     </option>
+     <option value="mem" >
+       memphis, 
+             TN,
+US     </option>
+     <option value="mdo" >
+       mendocino co, 
+             CA,
+US     </option>
+     <option value="mer" >
+       merced, 
+             CA,
+US     </option>
+     <option value="mei" >
+       meridian, 
+             MS,
+US     </option>
+     <option value="mex" >
+       mexico city, 
+MX     </option>
+     <option value="gum" >
+       micronesia, 
+GU     </option>
+     <option value="mxp" >
+       milan, 
+IT     </option>
+     <option value="mil" >
+       milwaukee, 
+             WI,
+US     </option>
+     <option value="min" >
+       minneapolis, 
+             MN,
+US     </option>
+     <option value="mso" >
+       missoula, 
+             MT,
+US     </option>
+     <option value="mob" >
+       mobile, AL, 
+             AL,
+US     </option>
+     <option value="mod" >
+       modesto, 
+             CA,
+US     </option>
+     <option value="mhv" >
+       mohave co, 
+             AZ,
+US     </option>
+     <option value="mlu" >
+       monroe, LA, 
+             LA,
+US     </option>
+     <option value="mnr" >
+       monroe, MI, 
+             MI,
+US     </option>
+     <option value="mtb" >
+       monterey, 
+             CA,
+US     </option>
+     <option value="mty" >
+       monterrey, 
+MX     </option>
+     <option value="mvd" >
+       montevideo, 
+UY     </option>
+     <option value="mgm" >
+       montgomery, 
+             AL,
+US     </option>
+     <option value="mpl" >
+       montpellier, 
+FR     </option>
+     <option value="mon" >
+       montreal, 
+             QC,
+CA     </option>
+     <option value="wvu" >
+       morgantown, 
+             WV,
+US     </option>
+     <option value="cas" >
+       morocco, 
+MA     </option>
+     <option value="mos" >
+       moscow, 
+RU     </option>
+     <option value="mlk" >
+       moses lake, 
+             WA,
+US     </option>
+     <option value="mum" >
+       mumbai, 
+IN     </option>
+     <option value="mun" >
+       muncie, 
+             IN,
+US     </option>
+     <option value="muc" >
+       munich, 
+DE     </option>
+     <option value="mkg" >
+       muskegon, 
+             MI,
+US     </option>
+     <option value="myr" >
+       myrtle beach, 
+             SC,
+US     </option>
+     <option value="ngo" >
+       nagoya, 
+JP     </option>
+     <option value="nmo" >
+       nanaimo, 
+             BC,
+CA     </option>
+     <option value="nkg" >
+       nanjing, 
+CN     </option>
+     <option value="nap" >
+       napoli, 
+IT     </option>
+     <option value="nsh" >
+       nashville, 
+             TN,
+US     </option>
+     <option value="nbw" >
+       new brunswick, 
+             NB,
+CA     </option>
+     <option value="ntl" >
+       newcastle, NSW, 
+             NSW,
+AU     </option>
+     <option value="ncl" >
+       newcastle, UK, 
+GB     </option>
+     <option value="nhm" >
+       new hampshire, 
+             NH,
+US     </option>
+     <option value="hvn" >
+       new haven, 
+             CT,
+US     </option>
+     <option value="nor" >
+       new orleans, 
+             LA,
+US     </option>
+     <option value="nyc" >
+       new york, 
+             NY,
+US     </option>
+     <option value="nsc" >
+       niagara region, 
+             ON,
+CA     </option>
+     <option value="mga" >
+       nicaragua, 
+NI     </option>
+     <option value="nfk" >
+       norfolk, 
+             VA,
+US     </option>
+     <option value="rou" >
+       normandy, 
+FR     </option>
+     <option value="ndk" >
+       north dakota, 
+             ND,
+US     </option>
+     <option value="abr" >
+       northeast SD, 
+             SD,
+US     </option>
+     <option value="nmi" >
+       northern MI, 
+             MI,
+US     </option>
+     <option value="nwi" >
+       northern WI, 
+             WI,
+US     </option>
+     <option value="whl" >
+       northern WV, 
+             WV,
+US     </option>
+     <option value="njy" >
+       north jersey, 
+             NJ,
+US     </option>
+     <option value="nms" >
+       north MS, 
+             MS,
+US     </option>
+     <option value="lbf" >
+       north platte, 
+             NE,
+US     </option>
+     <option value="nct" >
+       northwest CT, 
+             CT,
+US     </option>
+     <option value="nwg" >
+       northwest GA, 
+             GA,
+US     </option>
+     <option value="nwk" >
+       northwest KS, 
+             KS,
+US     </option>
+     <option value="end" >
+       northwest OK, 
+             OK,
+US     </option>
+     <option value="osl" >
+       norway, 
+NO     </option>
+     <option value="not" >
+       nottingham, 
+GB     </option>
+     <option value="nue" >
+       nuremberg, 
+DE     </option>
+     <option value="oax" >
+       oaxaca, 
+MX     </option>
+     <option value="oca" >
+       ocala, 
+             FL,
+US     </option>
+     <option value="odm" >
+       odessa, 
+             TX,
+US     </option>
+     <option value="ogd" >
+       ogden, 
+             UT,
+US     </option>
+     <option value="vps" >
+       okaloosa, 
+             FL,
+US     </option>
+     <option value="oka" >
+       okinawa, 
+JP     </option>
+     <option value="okc" >
+       oklahoma city, 
+             OK,
+US     </option>
+     <option value="olp" >
+       olympic pen, 
+             WA,
+US     </option>
+     <option value="oma" >
+       omaha, 
+             NE,
+US     </option>
+     <option value="onh" >
+       oneonta, 
+             NY,
+US     </option>
+     <option value="orc" >
+       orange co, 
+             CA,
+US     </option>
+     <option value="cor" >
+       oregon coast, 
+             OR,
+US     </option>
+     <option value="orl" >
+       orlando, 
+             FL,
+US     </option>
+     <option value="osa" >
+       osaka, 
+JP     </option>
+     <option value="ott" >
+       ottawa, 
+             ON,
+CA     </option>
+     <option value="obx" >
+       outer banks, 
+             NC,
+US     </option>
+     <option value="owb" >
+       owensboro, 
+             KY,
+US     </option>
+     <option value="ows" >
+       owen sound, 
+             ON,
+CA     </option>
+     <option value="oxf" >
+       oxford, 
+GB     </option>
+     <option value="pak" >
+       pakistan, 
+PK     </option>
+     <option value="psp" >
+       palm springs, 
+             CA,
+US     </option>
+     <option value="crk" >
+       pampanga, 
+PH     </option>
+     <option value="pan" >
+       panama, 
+PA     </option>
+     <option value="pfn" >
+       panama city, FL, 
+             FL,
+US     </option>
+     <option value="par" >
+       paris, 
+FR     </option>
+     <option value="pkb" >
+       parkersburg, 
+             WV,
+US     </option>
+     <option value="pax" >
+       peace country, 
+             AB,
+CA     </option>
+     <option value="pei" >
+       PEI, 
+             PE,
+CA     </option>
+     <option value="pns" >
+       pensacola, 
+             FL,
+US     </option>
+     <option value="pia" >
+       peoria, 
+             IL,
+US     </option>
+     <option value="per" >
+       perth, 
+             WA,
+AU     </option>
+     <option value="lim" >
+       peru, 
+PE     </option>
+     <option value="peg" >
+       perugia, 
+IT     </option>
+     <option value="ypq" >
+       peterborough, 
+             ON,
+CA     </option>
+     <option value="phi" >
+       philadelphia, 
+             PA,
+US     </option>
+     <option value="phx" >
+       phoenix, 
+             AZ,
+US     </option>
+     <option value="pit" >
+       pittsburgh, 
+             PA,
+US     </option>
+     <option value="plb" >
+       plattsburgh, 
+             NY,
+US     </option>
+     <option value="poc" >
+       poconos, 
+             PA,
+US     </option>
+     <option value="waw" >
+       poland, 
+PL     </option>
+     <option value="phn" >
+       port huron, 
+             MI,
+US     </option>
+     <option value="pdx" >
+       portland, 
+             OR,
+US     </option>
+     <option value="pto" >
+       porto, 
+PT     </option>
+     <option value="pgp" >
+       porto alegre, 
+BR     </option>
+     <option value="ptd" >
+       potsdam-massena, 
+             NY,
+US     </option>
+     <option value="prg" >
+       prague, 
+CZ     </option>
+     <option value="prc" >
+       prescott, 
+             AZ,
+US     </option>
+     <option value="hpr" >
+       pretoria, 
+ZA     </option>
+     <option value="yxs" >
+       prince george, 
+             BC,
+CA     </option>
+     <option value="pvu" >
+       provo, 
+             UT,
+US     </option>
+     <option value="pbl" >
+       puebla, 
+MX     </option>
+     <option value="pub" >
+       pueblo, 
+             CO,
+US     </option>
+     <option value="pri" >
+       puerto rico, 
+             PR,
+PR     </option>
+     <option value="pvr" >
+       puerto vallarta, 
+MX     </option>
+     <option value="plm" >
+       pullman-moscow, 
+             WA,
+US     </option>
+     <option value="pnq" >
+       pune, 
+IN     </option>
+     <option value="mli" >
+       quad cities, 
+             IA,
+US     </option>
+     <option value="qbc" >
+       quebec, 
+             QC,
+CA     </option>
+     <option value="ral" >
+       raleigh, 
+             NC,
+US     </option>
+     <option value="rap" >
+       rapid city, 
+             SD,
+US     </option>
+     <option value="rea" >
+       reading, 
+             PA,
+US     </option>
+     <option value="rec" >
+       recife, 
+BR     </option>
+     <option value="red" >
+       red deer, 
+             AB,
+CA     </option>
+     <option value="rdd" >
+       redding, 
+             CA,
+US     </option>
+     <option value="reg" >
+       regina, 
+             SK,
+CA     </option>
+     <option value="rno" >
+       reno, 
+             NV,
+US     </option>
+     <option value="rkv" >
+       reykjavik, 
+IS     </option>
+     <option value="prv" >
+       rhode island, 
+             RI,
+US     </option>
+     <option value="rin" >
+       richmond, IN, 
+             IN,
+US     </option>
+     <option value="ric" >
+       richmond, VA, 
+             VA,
+US     </option>
+     <option value="rio" >
+       rio de janeiro, 
+BR     </option>
+     <option value="roa" >
+       roanoke, 
+             VA,
+US     </option>
+     <option value="rmn" >
+       rochester, MN, 
+             MN,
+US     </option>
+     <option value="rcs" >
+       rochester, NY, 
+             NY,
+US     </option>
+     <option value="rfd" >
+       rockford, 
+             IL,
+US     </option>
+     <option value="buh" >
+       romania, 
+RO     </option>
+     <option value="rom" >
+       rome, 
+IT     </option>
+     <option value="rbg" >
+       roseburg, 
+             OR,
+US     </option>
+     <option value="row" >
+       roswell, 
+             NM,
+US     </option>
+     <option value="sac" >
+       sacramento, 
+             CA,
+US     </option>
+     <option value="mbs" >
+       saginaw, 
+             MI,
+US     </option>
+     <option value="sgy" >
+       saguenay, 
+             QC,
+CA     </option>
+     <option value="sle" >
+       salem, 
+             OR,
+US     </option>
+     <option value="sns" >
+       salina, 
+             KS,
+US     </option>
+     <option value="slc" >
+       salt lake, 
+             UT,
+US     </option>
+     <option value="ssa" >
+       salvador, bahia, 
+BR     </option>
+     <option value="sjt" >
+       san angelo, 
+             TX,
+US     </option>
+     <option value="sat" >
+       san antonio, 
+             TX,
+US     </option>
+     <option value="sdo" >
+       san diego, 
+             CA,
+US     </option>
+     <option value="sky" >
+       sandusky, 
+             OH,
+US     </option>
+     <option value="slo" >
+       san luis obispo, 
+             CA,
+US     </option>
+     <option value="tsu" >
+       san marcos, 
+             TX,
+US     </option>
+     <option value="sba" >
+       santa barbara, 
+             CA,
+US     </option>
+     <option value="saf" >
+       santa fe, 
+             NM,
+US     </option>
+     <option value="smx" >
+       santa maria, 
+             CA,
+US     </option>
+     <option value="spo" >
+       sao paulo, 
+BR     </option>
+     <option value="spp" >
+       sapporo, 
+JP     </option>
+     <option value="srq" >
+       sarasota, 
+             FL,
+US     </option>
+     <option value="srd" >
+       sardinia, 
+IT     </option>
+     <option value="srn" >
+       sarnia, 
+             ON,
+CA     </option>
+     <option value="skt" >
+       saskatoon, 
+             SK,
+CA     </option>
+     <option value="soo" >
+       sault ste marie, ON, 
+             ON,
+CA     </option>
+     <option value="sav" >
+       savannah, 
+             GA,
+US     </option>
+     <option value="bff" >
+       scottsbluff, 
+             NE,
+US     </option>
+     <option value="avp" >
+       scranton, 
+             PA,
+US     </option>
+     <option value="sea" >
+       seattle, 
+             WA,
+US     </option>
+     <option value="sdj" >
+       sendai, 
+JP     </option>
+     <option value="sel" >
+       seoul, 
+KR     </option>
+     <option value="sev" >
+       sevilla, 
+ES     </option>
+     <option value="sfo" >
+       SF bay area, 
+             CA,
+US     </option>
+     <option value="sha" >
+       shanghai, 
+CN     </option>
+     <option value="sbm" >
+       sheboygan, WI, 
+             WI,
+US     </option>
+     <option value="shf" >
+       sheffield, 
+GB     </option>
+     <option value="she" >
+       shenyang, 
+CN     </option>
+     <option value="szx" >
+       shenzhen, 
+CN     </option>
+     <option value="shb" >
+       sherbrooke, 
+             QC,
+CA     </option>
+     <option value="sow" >
+       show low, 
+             AZ,
+US     </option>
+     <option value="shv" >
+       shreveport, 
+             LA,
+US     </option>
+     <option value="sic" >
+       sicilia, 
+IT     </option>
+     <option value="fhu" >
+       sierra vista, 
+             AZ,
+US     </option>
+     <option value="sng" >
+       singapore, 
+SG     </option>
+     <option value="sux" >
+       sioux city, 
+             IA,
+US     </option>
+     <option value="fsd" >
+       sioux falls, 
+             SD,
+US     </option>
+     <option value="ssk" >
+       siskiyou co, 
+             CA,
+US     </option>
+     <option value="mvw" >
+       skagit, 
+             WA,
+US     </option>
+     <option value="ske" >
+       skeena-bulkley, 
+             BC,
+CA     </option>
+     <option value="sbn" >
+       south bend, 
+             IN,
+US     </option>
+     <option value="sma" >
+       south coast, 
+             MA,
+US     </option>
+     <option value="sdk" >
+       south dakota, 
+             SD,
+US     </option>
+     <option value="jnu" >
+       southeast AK, 
+             AK,
+US     </option>
+     <option value="otu" >
+       southeast IA, 
+             IA,
+US     </option>
+     <option value="sek" >
+       southeast KS, 
+             KS,
+US     </option>
+     <option value="smo" >
+       southeast MO, 
+             MO,
+US     </option>
+     <option value="cbd" >
+       southern IL, 
+             IL,
+US     </option>
+     <option value="smd" >
+       southern MD, 
+             MD,
+US     </option>
+     <option value="swv" >
+       southern WV, 
+             WV,
+US     </option>
+     <option value="mia" >
+       south florida, 
+             FL,
+US     </option>
+     <option value="snj" >
+       south jersey, 
+             NJ,
+US     </option>
+     <option value="swk" >
+       southwest KS, 
+             KS,
+US     </option>
+     <option value="swm" >
+       southwest MI, 
+             MI,
+US     </option>
+     <option value="mml" >
+       southwest MN, 
+             MN,
+US     </option>
+     <option value="hez" >
+       southwest MS, 
+             MS,
+US     </option>
+     <option value="wtx" >
+       southwest TX, 
+             TX,
+US     </option>
+     <option value="vaw" >
+       southwest VA, 
+             VA,
+US     </option>
+     <option value="mlb" >
+       space coast, 
+             FL,
+US     </option>
+     <option value="spk" >
+       spokane, 
+             WA,
+US     </option>
+     <option value="sgf" >
+       springfield, 
+             MO,
+US     </option>
+     <option value="spi" >
+       springfield, IL, 
+             IL,
+US     </option>
+     <option value="psu" >
+       state college, 
+             PA,
+US     </option>
+     <option value="tbr" >
+       statesboro, 
+             GA,
+US     </option>
+     <option value="ust" >
+       st augustine, 
+             FL,
+US     </option>
+     <option value="stc" >
+       st cloud, 
+             MN,
+US     </option>
+     <option value="stg" >
+       st george, 
+             UT,
+US     </option>
+     <option value="osu" >
+       stillwater, 
+             OK,
+US     </option>
+     <option value="nfl" >
+       st john&#39;s, NL, 
+             NL,
+CA     </option>
+     <option value="stj" >
+       st joseph, 
+             MO,
+US     </option>
+     <option value="stl" >
+       st louis, 
+             MO,
+US     </option>
+     <option value="stk" >
+       stockton, 
+             CA,
+US     </option>
+     <option value="stp" >
+       st petersburg, 
+RU     </option>
+     <option value="sxb" >
+       strasbourg, 
+FR     </option>
+     <option value="str" >
+       stuttgart, 
+DE     </option>
+     <option value="sud" >
+       sudbury, 
+             ON,
+CA     </option>
+     <option value="sun" >
+       sunshine coast, 
+             BC,
+CA     </option>
+     <option value="svt" >
+       surat surat, 
+IN     </option>
+     <option value="ssn" >
+       susanville, 
+             CA,
+US     </option>
+     <option value="sth" >
+       sweden, 
+SE     </option>
+     <option value="syd" >
+       sydney, 
+             NSW,
+AU     </option>
+     <option value="syr" >
+       syracuse, 
+             NY,
+US     </option>
+     <option value="twd" >
+       taiwan, 
+TW     </option>
+     <option value="tal" >
+       tallahassee, 
+             FL,
+US     </option>
+     <option value="tpa" >
+       tampa bay, 
+             FL,
+US     </option>
+     <option value="hba" >
+       tasmania, 
+             TAS,
+AU     </option>
+     <option value="tlv" >
+       tel aviv, 
+IL     </option>
+     <option value="tha" >
+       terre haute, 
+             IN,
+US     </option>
+     <option value="toc" >
+       territories, 
+             NT,
+CA     </option>
+     <option value="txk" >
+       texarkana, 
+             AR,
+US     </option>
+     <option value="txm" >
+       texoma, 
+             TX,
+US     </option>
+     <option value="bkk" >
+       thailand, 
+TH     </option>
+     <option value="msl" >
+       the shoals, 
+             AL,
+US     </option>
+     <option value="thb" >
+       the thumb, 
+             MI,
+US     </option>
+     <option value="tby" >
+       thunder bay, 
+             ON,
+CA     </option>
+     <option value="tij" >
+       tijuana, 
+MX     </option>
+     <option value="laf" >
+       tippecanoe, 
+             IN,
+US     </option>
+     <option value="tok" >
+       tokyo, 
+JP     </option>
+     <option value="tol" >
+       toledo, 
+             OH,
+US     </option>
+     <option value="tpk" >
+       topeka, 
+             KS,
+US     </option>
+     <option value="trn" >
+       torino, 
+IT     </option>
+     <option value="tor" >
+       toronto, 
+             ON,
+CA     </option>
+     <option value="tls" >
+       toulouse, 
+FR     </option>
+     <option value="psl" >
+       treasure coast, 
+             FL,
+US     </option>
+     <option value="tri" >
+       tri-cities, TN, 
+             TN,
+US     </option>
+     <option value="kpr" >
+       tri-cities, WA, 
+             WA,
+US     </option>
+     <option value="trs" >
+       trois-rivieres, 
+             QC,
+CA     </option>
+     <option value="tus" >
+       tucson, 
+             AZ,
+US     </option>
+     <option value="tul" >
+       tulsa, 
+             OK,
+US     </option>
+     <option value="tun" >
+       tunisia, 
+TN     </option>
+     <option value="ist" >
+       turkey, 
+TR     </option>
+     <option value="tsc" >
+       tuscaloosa, 
+             AL,
+US     </option>
+     <option value="nph" >
+       tuscarawas co, 
+             OH,
+US     </option>
+     <option value="twf" >
+       twin falls, 
+             ID,
+US     </option>
+     <option value="tts" >
+       twin tiers, 
+             NY,
+US     </option>
+     <option value="kbp" >
+       ukraine, 
+UA     </option>
+     <option value="uti" >
+       utica, 
+             NY,
+US     </option>
+     <option value="vld" >
+       valdosta, 
+             GA,
+US     </option>
+     <option value="val" >
+       valencia, 
+ES     </option>
+     <option value="van" >
+       vancouver, BC, 
+             BC,
+CA     </option>
+     <option value="ccs" >
+       venezuela, 
+VE     </option>
+     <option value="vce" >
+       venice, 
+IT     </option>
+     <option value="oxr" >
+       ventura, 
+             CA,
+US     </option>
+     <option value="vcz" >
+       veracruz, 
+MX     </option>
+     <option value="brl" >
+       vermont, 
+             VT,
+US     </option>
+     <option value="vic" >
+       victoria, BC, 
+             BC,
+CA     </option>
+     <option value="vtx" >
+       victoria, TX, 
+             TX,
+US     </option>
+     <option value="vie" >
+       vienna, 
+AT     </option>
+     <option value="vtn" >
+       vietnam, 
+VN     </option>
+     <option value="vrg" >
+       virgin islands, 
+VI     </option>
+     <option value="vis" >
+       visalia-tulare, 
+             CA,
+US     </option>
+     <option value="wco" >
+       waco, 
+             TX,
+US     </option>
+     <option value="wdc" >
+       washington, DC, 
+             DC,
+US     </option>
+     <option value="wlo" >
+       waterloo, 
+             IA,
+US     </option>
+     <option value="wtn" >
+       watertown, 
+             NY,
+US     </option>
+     <option value="wau" >
+       wausau, 
+             WI,
+US     </option>
+     <option value="wll" >
+       wellington, 
+NZ     </option>
+     <option value="wen" >
+       wenatchee, 
+             WA,
+US     </option>
+     <option value="pal" >
+       west bank, 
+PS     </option>
+     <option value="qcy" >
+       western IL, 
+             IL,
+US     </option>
+     <option value="wky" >
+       western KY, 
+             KY,
+US     </option>
+     <option value="wma" >
+       western mass, 
+             MA,
+US     </option>
+     <option value="wmd" >
+       western MD, 
+             MD,
+US     </option>
+     <option value="gjt" >
+       western slope, 
+             CO,
+US     </option>
+     <option value="wva" >
+       west virginia, 
+             WV,
+US     </option>
+     <option value="whi" >
+       whistler / squamish, 
+             BC,
+CA     </option>
+     <option value="whh" >
+       whitehorse, 
+             YK,
+CA     </option>
+     <option value="wic" >
+       wichita, 
+             KS,
+US     </option>
+     <option value="wtf" >
+       wichita falls, 
+             TX,
+US     </option>
+     <option value="wpt" >
+       williamsport, 
+             PA,
+US     </option>
+     <option value="wnc" >
+       wilmington, NC, 
+             NC,
+US     </option>
+     <option value="okv" >
+       winchester, 
+             VA,
+US     </option>
+     <option value="wsr" >
+       windsor, 
+             ON,
+CA     </option>
+     <option value="win" >
+       winnipeg, 
+             MB,
+CA     </option>
+     <option value="wsl" >
+       winston-salem, 
+             NC,
+US     </option>
+     <option value="wol" >
+       wollongong, 
+             NSW,
+AU     </option>
+     <option value="wor" >
+       worcester, 
+             MA,
+US     </option>
+     <option value="wuh" >
+       wuhan, 
+CN     </option>
+     <option value="wyo" >
+       wyoming, 
+             WY,
+US     </option>
+     <option value="xiy" >
+       xi&#39;an, 
+CN     </option>
+     <option value="yak" >
+       yakima, 
+             WA,
+US     </option>
+     <option value="ykf" >
+       yellowknife, 
+             NT,
+CA     </option>
+     <option value="yup" >
+       yoopers, 
+             MI,
+US     </option>
+     <option value="yrk" >
+       york, PA, 
+             PA,
+US     </option>
+     <option value="yng" >
+       youngstown, 
+             OH,
+US     </option>
+     <option value="ybs" >
+       yuba-sutter, 
+             CA,
+US     </option>
+     <option value="yuc" >
+       yucatan, 
+MX     </option>
+     <option value="yum" >
+       yuma, 
+             AZ,
+US     </option>
+     <option value="zam" >
+       zamboanga, 
+PH     </option>
+     <option value="zvl" >
+       zanesville, 
+             OH,
+US     </option>
+     <option value="zur" >
+       zurich, 
+CH     </option>
+  </select>
+  <button type="submit" value="go">go</button>
+</form>
+
+<p class="postinglist_title">
+showing most recent</p>
+
+<fieldset id="paginator">
+    <legend id="paginator1"> 
+      ( 
+page: 
+          1
+      )
+    </legend>
+
+    <table class="accthp_postings tablesorter">
+      <thead>
+        <tr class="headers">
+          <th>
+status          </th>
+          <th class="sorter-false">
+manage          </th>
+          <th>
+posting title          </th>
+          <th>
+area and category          </th>
+          <th class="sorter-time_tag">
+posted date          </th>
+          <th class="sorter-time_tag">
+exp.          </th>
+          <th>
+id          </th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+page: 
+          1
+</fieldset>
+ </section>
+
+<footer>
+    <ul class="clfooter">
+        <li>&copy;  <span class="desktop">craigslist</span><span class="mobile">CL</span></li>
+        <li><a href="https://www.craigslist.org/about/help/">help</a></li>
+        <li><a href="https://www.craigslist.org/about/scams">safety</a></li>
+        <li class="desktop"><a href="https://www.craigslist.org/about/privacy.policy">privacy</a></li>
+        <li class="desktop"><a href="https://forums.craigslist.org/?forumID=8">feedback</a></li>
+        <li class="desktop"><a href="https://www.craigslist.org/about/craigslist_is_hiring">cl jobs</a></li>
+        <li><a href="//www.craigslist.org/about/terms.of.use.en-us">terms</a><sup class="neu">new</sup></li>
+        <li><a href="https://www.craigslist.org/about/">about</a></li>
+        <li class="fsel desktop linklike" data-mode="mobile">mobile</li>
+        <li class="fsel mobile linklike" data-mode="regular">desktop</li>
+    </ul>
+</footer>
+
+</article>
+
+
+        <script type="text/javascript"><!--
+var pagetype = "account";
+--></script>
+    
+
+                <script>
+                try {
+                    if (
+                        !/\/\/.+\.craigslist\.org\/about\//.test(window.location.href)
+                        &&
+                        (!window.addEventListener || JSON.parse(JSON.stringify('x')) !== 'x')
+                    ) {
+                        throw "unsupported browser";
+                    }
+                } catch (e) {
+                    function cleanup() {
+                        document.body.innerHTML = '<div id="cl-unsupported-browser" style="margin:1em;font-size:150%;text-align:center;">We have detected you are using a browser that is missing critical features.<br><br>Please visit craigslist from a modern browser.</div>';
+                        document.body.style = "display:block";
+                    }
+
+                    try {
+                        document.body.style = "display:none";
+                    } catch (e) {
+                    }
+                    window.onload = cleanup;
+                    window.clUnsupportedBrowser = true;
+                }
+                </script>
+            <script src="//www.craigslist.org/js/general-concat.min.js?v=52193b5fab7b153c780451e9f36c4337" type="text/javascript" ></script>
+
+<script src="//www.craigslist.org/js/tablesorter-concat.min.js?v=eb93bd23f63122ced394a598d20677e2" type="text/javascript" ></script>
+
+<script src="//www.craigslist.org/js/account.min.js?v=fd2f05f218518b99f98a9bd16c55b806" type="text/javascript" ></script>
+
+
+</body></html>

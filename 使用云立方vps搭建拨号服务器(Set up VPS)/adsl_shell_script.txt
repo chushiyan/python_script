@@ -1,0 +1,139 @@
+# #############################
+# ### build the vps on the yunlifang ###
+# #############################
+
+adsl-start
+# mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
+# wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
+# yum makecache
+
+yum install -y epel-release
+yum update -y
+
+yum install -y screen
+
+yum -y groupinstall "Development tools"
+yum install gcc
+yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel
+
+yum install -y wget
+cd
+wget https://www.python.org/ftp/python/3.6.5/Python-3.6.5.tgz
+
+tar -xvf Python-3.6.5.tgz 
+cd  Python-3.6.5
+./configure --prefix=/usr/local/python3
+make 
+make install
+
+ln -s /usr/local/python3/bin/python3 /usr/bin/python3
+
+vi /etc/profile
+PATH=$PATH:$HOME/bin:/usr/local/python3/bin
+export PATH
+
+source /etc/profile
+
+pip3 install --upgrade pip
+
+cd
+yum install -y tinyproxy
+
+vi  /etc/tinyproxy/tinyproxy.conf
+Port 3435
+#Allow 127.0.0.1
+
+
+systemctl enable tinyproxy.service
+systemctl restart tinyproxy.service
+
+iptables -I INPUT -p tcp --dport 3435 -j ACCEPT
+iptables-save
+
+
+
+# #########################################
+# #######  check the proxy  other machines  ########
+# #########################################
+curl -x 59.42.43.37:3435 httpbin.org/get
+
+
+
+
+
+
+
+
+# ###########################
+# ######     install python3    ######
+# ###########################
+
+yum install -y epel-release
+yum update -y
+yum -y groupinstall "Development tools"
+yum install gcc
+yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel
+
+yum install -y wget
+cd
+wget https://www.python.org/ftp/python/3.6.5/Python-3.6.5.tgz
+
+tar -xvf Python-3.6.5.tgz 
+cd  Python-3.6.5
+./configure --prefix=/usr/local/python3
+make 
+make install
+
+ln -s /usr/local/python3/bin/python3 /usr/bin/python3
+
+vi /etc/profile
+PATH=$PATH:$HOME/bin:/usr/local/python3/bin
+export PATH
+
+source /etc/profile
+
+pip3 install --upgrade pip
+
+
+
+# ###########################
+# #######    install redis      #######
+# ###########################
+cd
+yum install gcc-c++
+wget http://download.redis.io/releases/redis-5.0.2.tar.gz
+tar -xvf redis-5.0.2.tar.gz && cd redis-5.0.2 && make && make install PREFIX=/usr/local/redis
+cp redis.conf /usr/local/redis/bin
+cd /usr/local/redis/bin
+vi redis.conf
+
+
+./redis-server redis.conf
+
+
+
+
+
+
+# ##############################
+# #######    install some libs     #######
+# ##############################
+
+pip3 install scrapy
+pip3 install scrapy-redis
+pip3 install pillow
+pip3 install scrapy_splash
+
+pip3 install selenium
+
+pip3 install redis tornado requests
+
+
+
+
+
+
+
+
+
+
